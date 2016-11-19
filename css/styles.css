@@ -151,6 +151,9 @@ h3, .main__h3--socialStatsTitle {
     margin: .3em;
     font-size: 1em;
 }
+i, .main__p--joinDate {
+    margin: 0 .5em 0 0;
+}
 .main__svg--socialIcon {
     position: relative;
     top: 15px;

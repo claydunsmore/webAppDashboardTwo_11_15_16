@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
         <meta name="description" content="Clay Dunsmore's Web App Dashboard">
-        <title>Clay Dunsmore</title>
+        <title>Clay Dunsmore  - Web App Dashboard (Project 9, Treehouse Techdegree Program)</title>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet"/>
@@ -29,7 +29,7 @@
     </div>
     <div class="inlineBlock">
         <ul class="nav__ul left">
-            <li class="nav__li--navIconContainer" id="iconDashboard" onMouseover="changeIconDashboard();">
+            <li class="nav__li--navIconContainer" id="iconDashboard">
                 <svg version="1.1" id="Line_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	            viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" height="50%" width="50%" class="nav__svg--navIcon">
                     <g id="_x31_0_20_">
@@ -45,7 +45,7 @@
                     </g>
                 </svg>
             </li>
-            <li class="nav__li--navIconContainer" id="iconMembers" onMouseover="changeIconMembers();">
+            <li class="nav__li--navIconContainer" id="iconMembers">
                 <svg version="1.1" id="Line_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	            viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" height="50%" width="50%" class="nav__svg--navIcon">
                     <g id="_x37__17_">
@@ -61,7 +61,7 @@
                     </g>
                 </svg>
             </li>
-            <li class="nav__li--navIconContainer" id="iconVisits" onMouseover="changeIconVisits();">
+            <li class="nav__li--navIconContainer" id="iconVisits">
                 <svg version="1.1" id="Line_12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	            viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" height="50%" width="50%" class="nav__svg--navIcon">
                     <g id="_x35__10_">
@@ -75,7 +75,7 @@
                     </g>
                 </svg>
             </li>
-            <li class="nav__li--navIconContainer" id="iconSettings" onMouseover="changeIconSettings();">
+            <li class="nav__li--navIconContainer" id="iconSettings">
                 <svg version="1.1" id="Line_6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	            viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" height="50%" width="50%" class="nav__svg--navIcon">
                     <g id="_x32__16_">
@@ -186,21 +186,25 @@
                 <li class="main__li--newMembersListItem ListItem">
                     <img src="img/128.jpg" class="left main__img--memberImage" alt="Victoria Chambers"/>
                     <p class="left main__p--memberName">Victoria Chambers</p><br/>
+                    <p class="right main__p--joinDate">11-16-16</p>
                     <p class="left main__p--memberMail">v.chambers@example.com</p>
                 </li>
                 <li class="main__li--newMembersListItem">
                     <img src="img/130.jpg" class="left main__img--memberImage" alt="Dale Byrd"/>
                     <p class="left main__p--memberName">Dale Byrd</p><br/>
+                    <p class="right main__p--joinDate">11-16-16</p>
                     <p class="left main__p--memberMail">d.byrd@example.com</p>
                 </li>
                 <li class="main__li--newMembersListItem">
                     <img src="img/129.jpg" class="left main__img--memberImage" alt="Dawn Wood"/>
                     <p class="left main__p--memberName">Dawn Wood</p><br/>
+                    <p class="right main__p--joinDate">11-16-16</p>
                     <p class="left main__p--memberMail">d.wood@example.com</p>
                 </li>
                 <li class=".memberHeight danOliverMember main__li--newMembersListItem">
                     <img src="img/131.jpg" class="left main__img--memberImage" alt="Dan Oliver"/>
                     <p class="left main__p--memberName">Dan Oliver</p><br/>
+                    <p class="right main__p--joinDate">11-16-16</p>
                     <p class="left main__p--memberMail">d.oliver@example.com</p>
                 </li>
             </ul>
@@ -210,7 +214,7 @@
             <ul class="main__ul--newMembers">
                 <li class="main__li--recentActivityListItem ">
                     <img src="img/128.jpg" class="left main__img--memberImage" alt="Victoria Chambers"/>
-                    <p class="left">Victoria Chambers commented on YourApps's SEO Tips</p><br/>
+                    <p class="left"><i class="fa fa-comment-o" aria-hidden="true"></i>Victoria Chambers commented on YourApps's SEO Tips</p><br/>
                     <p class="left">4 hours ago</p>
                     <i class="fa fa-angle-right fa-3x right main__i--recentActivityArrow" aria-hidden="true"></i>
                     <ul class="main__ul--dropdownContent">
@@ -221,7 +225,7 @@
                 </li>
                 <li class="main__li--recentActivityListItem">
                     <img src="img/130.jpg" class="left main__img--memberImage" alt="Dale Byrd"/>
-                    <p class="left">Dale Byrdlike the post Facebook's Changes for 2016</p><br/>
+                    <p class="left"><i class="fa fa-envelope-o" aria-hidden="true"></i>Dale Byrd likes the post Facebook's Changes for 2016</p><br/>
                     <p class="left">5 hours ago</p>
                     <i class="fa fa-angle-right fa-3x right main__i--recentActivityArrow" aria-hidden="true"></i>
                     <ul class="main__ul--dropdownContent">
@@ -232,7 +236,7 @@
                 </li>
                 <li class="main__li--recentActivityListItem">
                     <img src="img/129.jpg" class="left main__img--memberImage" alt="Dawn Wood"/>
-                    <p class="left">Dawn Wood commented on Facebook's Changes for 2016 <i class="fa fa-angle-right" aria-hidden="true"></i></p><br/>
+                    <p class="left"><i class="fa fa-comment-o" aria-hidden="true"></i>Dawn Wood commented on Facebook's Changes for 2016 <i class="fa fa-angle-right" aria-hidden="true"></i></p><br/>
                     <p class="left">5 hours ago</p>
                     <i class="fa fa-angle-right fa-3x right main__i--recentActivityArrow" aria-hidden="true"></i>
                     <ul class="main__ul--dropdownContent">
@@ -243,7 +247,7 @@
                 </li>
                 <li class="main__li--recentActivityListItem danOliverPost">
                     <img src="img/131.jpg" class="left main__img--memberImage" alt="Dan Oliver"/>
-                    <p class="left">Dan Oliver posted YourApp's SEO Tips <i class="fa fa-angle-right" aria-hidden="true"></i></p><br/>
+                    <p class="left"><i class="fa fa-envelope-o" aria-hidden="true"></i>Dan Oliver posted YourApp's SEO Tips <i class="fa fa-angle-right" aria-hidden="true"></i></p><br/>
                     <p class="left">1 day ago</p>
                     <i class="fa fa-angle-right fa-3x right main__i--recentActivityArrow" aria-hidden="true"></i>
                     <ul class="main__ul--dropdownContent">
@@ -262,7 +266,8 @@
                 <label class="main__label--messageUser" for="messageOne"></label>
                 <textarea placeholder="message for user" cols="50" rows="10" class="main__textarea--textBox" id="messageOne" name="messageOne"></textarea>
                 <label class="main__label--messageUser" for="sendButton"></label>
-                <button class="main__button--sendButton" id="sendButton" onClick="return validateMessage();">SEND</button>
+                <button class="main__button--sendButton" id="sendButton">SEND</button>
+                <!--onClick="return validateMessage();"-->
             </form>
         </div>
         <div  class="divBorder main__div--settingsDiv">
@@ -302,7 +307,6 @@
     <script src="js/Chart.min.js"></script>
     <script src="js/trafficWidget.js"></script>
     <script src="js/validateForm.js"></script>
-    <script src="js/navHover.js"></script>
     <script src="js/script.js"></script>
     </body>
 </html>
